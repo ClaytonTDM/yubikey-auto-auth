@@ -1,9 +1,9 @@
-/*@cc_on //                                                     Microsoft JScript Compatibility
-@if (@_jscript) //                                              Microsoft JScript Compatibility
-    var shell = WScript.CreateObject("WScript.Shell"); //       Microsoft JScript Compatibility
-    shell.Run("start.bat"); //                                  Microsoft JScript Compatibility
-    WScript.Quit(); //                                          Microsoft JScript Compatibility
-@else@*/ //                                                     Microsoft JScript Compatibility
+/*@cc_on //                                                     Microsoft JScript/WScript Compatibility
+@if (@_jscript) //                                              Microsoft JScript/WScript Compatibility
+    var shell = WScript.CreateObject("WScript.Shell"); //       Microsoft JScript/WScript Compatibility
+    shell.Run("start.bat"); //                                  Microsoft JScript/WScript Compatibility
+    WScript.Quit(); //                                          Microsoft JScript/WScript Compatibility
+@else@*/ //                                                     Microsoft JScript/WScript Compatibility
 
 // The actual code
 const { exec } = require("child_process");
@@ -43,4 +43,4 @@ setInterval(function () {
         }
     });
 }, 1500);
-/*@end@*/ //  Microsoft JScript Compatibility
+/*@end@*/ //  Microsoft JScript/WScript Compatibility
