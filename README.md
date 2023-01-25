@@ -1,4 +1,4 @@
-# Yubico Auto Authenticator Opener
+# Yubico Auto Authenticator Opener for Windows
 Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
 
 ## FAQ
