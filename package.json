@@ -1,0 +1,12 @@
+{
+  "name": "yubikey-auto-auth",
+  "version": "1.0.0",
+  "description": "Automatically opens Yubico Authenticator when a compatible YubiKey is attached.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "ClaytonTDM",
+  "license": "CC-BY-SA-4.0"
+}
