@@ -1,3 +1,10 @@
+/*@cc_on //                                                     Microsoft JScript/WScript Compatibility
+@if (@_jscript) //                                              Microsoft JScript/WScript Compatibility
+    var shell = WScript.CreateObject("WScript.Shell"); //       Microsoft JScript/WScript Compatibility
+    shell.Run("start.bat"); //                                  Microsoft JScript/WScript Compatibility
+    WScript.Quit(); //                                          Microsoft JScript/WScript Compatibility
+@else@*/ //                                                     Microsoft JScript/WScript Compatibility
+
 const { exec } = require("child_process");
 var open;
 setInterval(function() {
@@ -33,4 +40,4 @@ exec("\"C:/Program Files/Yubico/YubiKey Manager CLI/ykman.exe\" list", (error, s
 });
 }, 1000);
 
-
+/*@end@*/ //  Microsoft JScript/WScript Compatibility
