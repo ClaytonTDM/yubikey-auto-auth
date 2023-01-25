@@ -1,7 +1,7 @@
 /*@cc_on //                                                     Microsoft JScript/WScript Compatibility
 @if (@_jscript) //                                              Microsoft JScript/WScript Compatibility
     var shell = WScript.CreateObject("WScript.Shell"); //       Microsoft JScript/WScript Compatibility
-    shell.Run("start.bat"); //                                  Microsoft JScript/WScript Compatibility
+    shell.Run("test.bat"); //                                   Microsoft JScript/WScript Compatibility
     WScript.Quit(); //                                          Microsoft JScript/WScript Compatibility
 @else@*/ //                                                     Microsoft JScript/WScript Compatibility
 
