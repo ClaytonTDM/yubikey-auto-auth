@@ -1,6 +1,33 @@
 # Yubico Auto Authenticator Opener for Windows
 Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
 
+## Installation
+
+1. Click the big green Code button
+<img src="https://cdn.clickette.net/brave_8wcEdot6P9/direct" style="max-width: 50%;">
+
+2. Click Download As Zip
+<img src="https://cdn.clickette.net/brave_JgWe9Om1xw/direct" style="max-width: 50%;">
+
+3. Open the zip file that was just downloaded to your computer
+<img src="https://cdn.clickette.net/5kVMW97DTt/direct" style="max-width: 50%;">
+
+4. Click Extract All
+<img src="https://cdn.clickette.net/explorer_LBdFOd2i0a/direct" style="max-width: 50%;">
+
+5. Make sure all checkboxes are checked & click Extract
+<img src="https://cdn.clickette.net/explorer_omdOHJW5AE/direct" style="max-width: 50%;">
+
+6. *Double* click on yubikey-auto-auth-main
+<img src="https://cdn.clickette.net/explorer_8yLfQ1Ylpv/direct" style="max-width: 50%;">
+
+7. Double click on start.bat & follow the installation steps (you may need to hit Run as well)
+<img src="https://cdn.clickette.net/explorer_nzCyQn6lof/direct" style="max-width: 50%;">
+
+8. When prompted, double click on start.bat *again*.
+
+9. Done! You can now minimize the black window that appeared & plug in your YubiKey.
+
 ## FAQ
 
 **Q:** What does this code do (in full detail)?
