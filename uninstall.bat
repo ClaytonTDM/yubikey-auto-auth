@@ -10,7 +10,7 @@ goto authenticator-install
 if exist "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js" (
 goto nodejs-install
 )
-goto start
+goto cleanup
 
 :ykman-install
 echo Preparing Dependencies...
@@ -51,14 +51,22 @@ echo.
 title Uninstalling Node.js...
 winget uninstall nodejs
 cls
+goto cleanup
+
+:cleanup
 echo Cleaning Up Files...
 echo.
 title Cleaning Up Files...
+rmdir /s /q .git
 del index.js
 del package.json
 del start.bat
 del test.bat
 del test.js
+del .gitignore
+del LICENSE
+del README.md
+cls
 echo Uninstalled! You may now delete this file.
 pause
 exit
