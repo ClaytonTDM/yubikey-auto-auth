@@ -51,6 +51,14 @@ echo.
 title Uninstalling Node.js...
 winget uninstall nodejs
 cls
-echo Uninstalled! You may now delete all the files in this folder.
+echo Cleaning Up Files...
+echo.
+title Cleaning Up Files...
+del index.js
+del package.json
+del start.bat
+del test.bat
+del test.js
+echo Uninstalled! You may now delete this file.
 pause
 exit
