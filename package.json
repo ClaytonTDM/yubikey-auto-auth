@@ -8,5 +8,5 @@
     "test": "node test.js"
   },
   "author": "ClaytonTDM",
-  "license": "CC-BY-SA-4.0"
+  "license": "Apache-2.0"
 }
