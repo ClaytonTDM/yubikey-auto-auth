@@ -1,5 +1,6 @@
-# Yubico Auto Authenticator Opener for Windows
-Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
+# Yubico AutoAuth for Windows
+
+### Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
 
 ## FAQ
 
@@ -54,3 +55,7 @@ Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
 3. When prompted, close the black window & delete the uninstall.bat file
 
 4. Done!
+
+
+ClaytonTDM © 2023
+This repository contains code owned by Yubico © 2023, licensed under the (Apache-2.0)[https://www.apache.org/licenses/LICENSE-2.0] license.
