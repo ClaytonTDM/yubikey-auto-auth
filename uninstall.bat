@@ -25,6 +25,7 @@ del index.js
 del package.json
 del start.bat
 del test.bat
+del undecryptable-value-error-fix.bat
 del test.js
 del .gitignore
 del LICENSE
