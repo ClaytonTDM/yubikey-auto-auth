@@ -58,4 +58,4 @@
 
 
 ClaytonTDM © 2023
-This repository contains code owned by Yubico © 2023, licensed under the (Apache-2.0)[https://www.apache.org/licenses/LICENSE-2.0] license.
+This repository contains code owned by Yubico © 2023, licensed under the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
