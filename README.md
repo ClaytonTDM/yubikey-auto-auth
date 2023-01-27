@@ -38,13 +38,13 @@
 
 ## Uninstallation
 
-1. Double click on uninstall.bat (you may need to hit Run as well)
+**1.** Double click on uninstall.bat (you may need to hit Run as well)
 
-2. Follow the uninstallation steps on-screen
+**2.** Follow the uninstallation steps on-screen
 
-3. Reboot your computer
+**3.** Reboot your computer
 
-4. Done!
+**4.** Done!
 
 --------------------
 
