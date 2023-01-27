@@ -30,6 +30,7 @@ del test.js
 del .gitignore
 del LICENSE
 del README.md
+del %temp%\npm-installed
 cls
 echo Uninstalled.
 pause
