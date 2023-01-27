@@ -4,8 +4,7 @@
   "description": "Automatically opens Yubico Authenticator when a compatible YubiKey is attached.",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "test": "node test.js"
+    "start": "electron ."
   },
   "author": "ClaytonTDM",
   "license": "Apache-2.0",
