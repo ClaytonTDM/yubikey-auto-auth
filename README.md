@@ -52,9 +52,9 @@
 
 2. Follow the uninstallation steps on-screen
 
-3. When prompted, close the black window & delete the uninstall.bat file
+3. Reboot your computer
 
-4. Done!
+4. Done! You may now delete the folder that was created in step 5 of the installation
 
 --------------------
 
