@@ -19,6 +19,7 @@ echo Cleaning Up Files...
 echo.
 title Cleaning Up Files...
 rmdir /s /q .git
+rmdir /s /q .github
 rmdir /s /q .vscode
 rmdir /s /q data_authenticator
 rmdir /s /q data_ykman
