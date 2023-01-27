@@ -43,7 +43,7 @@
 
 8. When prompted, double click on start.bat *again*.
 
-9. Done! You can now minimize the black window that appeared & plug in your YubiKey.
+9. Done!
 
 ## Uninstallation
 
