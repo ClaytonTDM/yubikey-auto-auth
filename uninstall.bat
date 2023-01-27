@@ -27,6 +27,7 @@ rmdir /s /q node_modules
 rmdir /s /q src
 del index.js
 del package.json
+del package-lock.json
 del start.bat
 del test.bat
 del undecryptable-value-error-fix.bat
