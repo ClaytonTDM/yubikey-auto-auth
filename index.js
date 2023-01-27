@@ -6,41 +6,40 @@
 @else@*/ //                                                     Microsoft JScript/WScript Compatibility
 
 // The actual code
-const { exec } = require("child_process");
-var open;
+const { app, BrowserWindow } = require('electron')
 
-process.title = "Yubico Auto Authenticator Opener";
-setTimeout(function() { console.clear(); console.log('Started. Try plugging in a YubiKey!\n'); }, 1500);
-setInterval(function () {
+function createWindow () {
+        const win = new BrowserWindow({
+            width: 600,
+            height: 150,
+            icon: 'assets/generic_dark.png',
+            autoHideMenuBar: true,
+            resizable: false,
+            transparent: true,
+            frame: false,
+            webPreferences: {
+                contextIsolation: false,
+                nodeIntegration: true,
+                devTools: false
+              }
+          })
 
-    // Process Check
-    const isRunning = (query, cb) => {
-        let cmd = 'tasklist';
-        exec(cmd, (err, stdout, stderr) => {
-            cb(stdout.toLowerCase().indexOf(query.toLowerCase()) > -1);
-        });
+
+  win.loadFile('src/app.html')
+}
+
+app.whenReady().then(() => {
+  createWindow()
+
+  app.on('activate', () => {
+    if (BrowserWindow.getAllWindows().length === 0) {
+      createWindow()
     }
-    isRunning("authenticator.exe", e => { open = e });
+  })
+})
 
-    // Key Check
-    exec("\"data_ykman/ykman.exe\" list", (error, stdout, stderr) => {
-        if (error) {
-            return false;
-        }
-        if (stderr) {
-            return false;
-        }
+app.on('window-all-closed', () => {
+      app.quit()
+  })
 
-        if (stdout != '' && open == false) {
-            console.log(stdout + '\nAuthenticator Opened\n');
-            exec('"data_authenticator/authenticator.exe"', [], (o, i, t) => {
-                console.log('Yubikey Disconnected\n\nAuthenticator closed\n')
-            });
-        } else {
-            if (stdout == '' && open == true) {
-                exec('taskkill /f /im authenticator.exe /t', [], (o, i, t) => { });
-            }
-        }
-    });
-}, 1500);
 /*@end@*/ //  Microsoft JScript/WScript Compatibility

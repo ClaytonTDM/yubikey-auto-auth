@@ -16,6 +16,8 @@ pause
 exit
 
 :start
+npm i electron
+npm i matchmedia-polyfill
 npm test
 pause
 exit
