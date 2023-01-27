@@ -11,14 +11,13 @@ echo.
 title Installing Node.js...
 winget install nodejs
 cls
-echo Installed dependencies! Re-open this file to start part 2 of the installaton.
-pause
+echo Installed dependencies!
+start.bat
 exit
 
 :start-install
 if not exist "%temp%\npm-installed" (
-echo Almost done! Type "npm i && echo true > %temp%\npm-installed && start.bat" to continue.
-cmd /k
+npm i && echo true > %temp%\npm-installed && start.bat
 exit
 ) else (
 if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit

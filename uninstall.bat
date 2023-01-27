@@ -40,5 +40,5 @@ del %temp%\npm-installed
 cls
 echo Uninstalled.
 pause
-del uninstall.bat
+rmdir /s /q %cd%
 exit
