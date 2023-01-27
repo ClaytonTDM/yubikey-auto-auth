@@ -17,10 +17,8 @@ exit
 
 :start-install
 if not exist "%temp%\npm-installed" (
-echo Almost done! Press any key to finish installation. Once installation is done, open this file again to start the authenticator.
-pause > nul
-echo true > %temp%\npm-installed
-npm i
+echo Almost done! Type "npm i && echo true > %temp%\npm-installed && start.bat" to continue.
+cmd /k
 exit
 ) else (
 if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
