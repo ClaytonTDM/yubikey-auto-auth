@@ -43,7 +43,7 @@ setInterval(function () {
 }, 1500);
 } else {
     setTimeout(function(){
-        document.getElementById('status_text').innerHTML = '<code>Uncaught ContainerError: File is not running inside Electron</code>';
+        document.getElementById('status_text').innerHTML = '<code>Uncaught ContainerError: File is not running in Electron wrapper</code>';
     throw 'ContainerError: File is not running in Electron wrapper';
     }, 1500);
 }
