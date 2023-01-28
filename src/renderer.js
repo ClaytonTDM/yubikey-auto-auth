@@ -7,7 +7,7 @@ function write_status(string) {
     console.log('Status: ' + string);
     document.getElementById('status_text').innerHTML = '<code>' + string + '</code>';
 }
-document.title = "YubiKey AutoAuth";
+document.title = "Yubico AutoAuth";
 setTimeout(function() { console.clear(); write_status('Started. Try plugging in a YubiKey!'); }, 1500);
 setInterval(function () {
 
