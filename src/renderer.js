@@ -44,6 +44,6 @@ setInterval(function () {
 } else {
     setTimeout(function(){
         document.getElementById('status_text').innerHTML = '<code>Uncaught ContainerError: File is not running inside Electron</code>';
-    throw 'ContainerError: File is not running inside Electron';
+    throw 'ContainerError: File is not running in Electron wrapper';
     }, 1500);
 }
