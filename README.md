@@ -1,4 +1,4 @@
-# Yubico AutoAuth for Windows
+# Yubico AutoAuth for Windows &nbsp;[![CodeQL](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql)
 
 ### Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
 
