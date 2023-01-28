@@ -1,4 +1,7 @@
-const { exec } = require("child_process");
+function isElectron(){return!!("undefined"!=typeof window&&"object"==typeof window.process&&"renderer"===window.process.type||"undefined"!=typeof process&&"object"==typeof process.versions&&process.versions.electron||"object"==typeof navigator&&"string"==typeof navigator.userAgent&&navigator.userAgent.indexOf("Electron")>=0)}
+
+if (isElectron()) {
+    const { exec } = require("child_process");
 var open;
 function write_status(string) {
     console.log('Status: ' + string);
@@ -38,3 +41,9 @@ setInterval(function () {
         }
     });
 }, 1500);
+} else {
+    setTimeout(function(){
+        document.getElementById('status_text').innerHTML = '<code>Uncaught ContainerError: File is not running inside Electron</code>';
+    throw 'ContainerError: File is not running inside Electron';
+    }, 1500);
+}
