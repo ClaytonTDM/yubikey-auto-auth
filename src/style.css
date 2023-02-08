@@ -3,7 +3,6 @@ html {
 }
 pre, code {
     color: #fff;
-    user-select: none;
 }
 #status_text {
     line-height: 4em;
@@ -13,8 +12,5 @@ pre, code {
     background-color: #000000b3;
     border-radius: 25px;
     filter: drop-shadow(0px 10px 10px #00000056);
-    -webkit-app-region: drag;
-}
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
 }

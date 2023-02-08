@@ -10,17 +10,16 @@ const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
         const win = new BrowserWindow({
-            width: 600,
-            height: 150,
+            width: 700,
+            height: 1200,
             icon: 'assets/generic_dark.png',
             autoHideMenuBar: true,
-            resizable: false,
             transparent: true,
             frame: false,
             webPreferences: {
                 contextIsolation: false,
                 nodeIntegration: true,
-                devTools: false
+
               }
           })
 
