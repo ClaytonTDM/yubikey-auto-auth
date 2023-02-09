@@ -9,6 +9,6 @@
   "author": "ClaytonTDM",
   "license": "Apache-2.0",
   "dependencies": {
-    "electron": "^22.1.0"
+    "electron": "^22.2.0"
   }
 }
