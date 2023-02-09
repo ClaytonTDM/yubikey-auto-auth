@@ -11,7 +11,7 @@ const { app, BrowserWindow } = require('electron')
 function createWindow () {
         const win = new BrowserWindow({
             width: 700,
-            height: 1200,
+            height: 250,
             icon: 'assets/generic_dark.png',
             autoHideMenuBar: true,
             transparent: true,
@@ -19,7 +19,7 @@ function createWindow () {
             webPreferences: {
                 contextIsolation: false,
                 nodeIntegration: true,
-
+                devTools: false
               }
           })
 
