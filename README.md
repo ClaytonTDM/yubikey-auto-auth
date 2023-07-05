@@ -1,4 +1,4 @@
-# Yubico AutoAuth for Windows &nbsp;[![CodeQL](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql) &nbsp;[![Latest Release](https://img.shields.io/static/v1?label=Version&message=v1.1.52&color=828282&logo=github)](https://github.com/ClaytonTDM/yubikey-auto-auth/releases/tag/v1.2.52)
+# Yubico AutoAuth for Windows &nbsp;[![CodeQL](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql) &nbsp;[![Latest Release](https://img.shields.io/static/v1?label=Version&message=v1.1.53&color=828282&logo=github)](https://github.com/ClaytonTDM/yubikey-auto-auth/releases/tag/v1.2.53)
 
 ### Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
 
@@ -48,6 +48,6 @@
 
 --------------------
 
-ClaytonTDM © 2023
+ClaytonTDM 🄯 2023
 
 This repository contains code owned by Yubico © 2022/2023, licensed under the [Apache 2.0 License](https://github.com/Yubico/yubioath-flutter/blob/main/LICENSE) and the [BSD 2 Clause License](https://github.com/Yubico/yubikey-manager/blob/main/COPYING).
