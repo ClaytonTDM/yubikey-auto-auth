@@ -48,6 +48,6 @@
 
 --------------------
 
-ClaytonTDM 🄯 2023
+ClaytonTDM ©️ 2023
 
 This repository contains code owned by Yubico © 2022/2023, licensed under the [Apache 2.0 License](https://github.com/Yubico/yubioath-flutter/blob/main/LICENSE) and the [BSD 2 Clause License](https://github.com/Yubico/yubikey-manager/blob/main/COPYING).
