@@ -1,7 +1,9 @@
-# Yubico AutoAuth for Windows &nbsp;[![CodeQL](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql) &nbsp;[![Latest Release](https://img.shields.io/static/v1?label=Version&message=v1.1.53&color=828282&logo=github)](https://github.com/ClaytonTDM/yubikey-auto-auth/releases/tag/v1.2.53)
+# Yubico AutoAuth for Windows &nbsp;[![CodeQL](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ClaytonTDM/yubikey-auto-auth/actions/workflows/github-code-scanning/codeql) &nbsp;[![Latest Release](https://img.shields.io/static/v1?label=Version&message=v1.1.54%20[Last%20Version]&color=yellow&logo=github)](https://github.com/ClaytonTDM/yubikey-auto-auth/releases/tag/v1.2.53)
+
+I will no longer be maintaining this project.
 
 ### Automatically opens Yubico Authenticator when a compatible YubiKey is attached.
-
+<!--
 ## FAQ
 
 **Q:** What does this code do?
@@ -17,7 +19,7 @@
 **Q:** What are the benefits of using this?
 
 **A:** The main benefit of using this script is that it automates the process of opening the Yubico Authenticator application when a compatible YubiKey is plugged into the computer. This can save time and effort, as the user no longer needs to manually open the application each time they want to use their YubiKey for authentication. Another benefit of this script is that it checks if the Yubico Authenticator application is already running and it closes it when the YubiKey is disconnected. This ensures that the application is only open when the YubiKey is connected, which can help to conserve system resources and minimize the risk of leaving the application open when it is not in use. Overall, the script can simplify the process of using a YubiKey for authentication, by automating the opening and closing of the Yubico Authenticator application based on the presence of a YubiKey.
-
+-->
 ## Installation
 
 **1.** Click the big green Code button
